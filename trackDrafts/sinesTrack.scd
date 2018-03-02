@@ -2,8 +2,7 @@
 
 ("../Setup/Setup.scd").loadRelative
 
-s.record
-s.stopRecording
+p.clock.tempo = 2;
 
 (
 ~r2 = {Line.kr(5,50,20)};

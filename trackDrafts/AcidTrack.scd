@@ -1,7 +1,5 @@
 ("../Setup/Setup.scd").loadRelative
 
-s.makeWindow
-
 (
 p.clock.tempo = 2.3;
 l = Pbjorklund2(Pwhite(1,10),16)/4;

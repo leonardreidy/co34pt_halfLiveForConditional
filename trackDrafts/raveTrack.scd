@@ -1,12 +1,6 @@
-
-
 ("../Setup/Setup.scd").loadRelative
 
 p.clock.tempo = 160/60
-
-s.record
-
-s.stopRecording
 
 (
 ~pianoChop = Pbind(\instrument,\vplay,\buf,d["piano"][0],\dur,Pwrand([1,0.5,Pseq([0.25],2),Pseq([0.125],4)],[0.1,0.7,0.15,0.05],inf),\atk,0,\sus,0.04,\rel,0.03,\pos,Pexprand(0.2,0.5),\amp,0.8,\rate,2);
@@ -259,7 +253,7 @@ d["ah"][0].play;~lsf.play;~kbk.play;~kbk2.play;~hipass.stop;~kbkc.play
 ~lsf.set(\f,~lsfLine2);
 )
 
-//this transition could do with being shorter
+//CPU will get a bit stressed here, be careful.
 (
 ~ravestab2.stop(20);
 ~ravestab2x.stop(30);
