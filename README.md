@@ -2,7 +2,7 @@
 
 ## About
 
-This is a repo containing all of the code and samples used to create 'Half-Live for Conditional Records'. It was initially an attempt to create some small, condensed tracks based on material I use during live sets, exemplifying particular 'sounds' I was used to drawing upon. 
+This is a repo containing all of the code and samples used to create the [Conditional Records](http://www.conditional.club/) release ['Half-Live for Conditional Records'](http://shop.conditional.club/album/half-live-for-conditional-records). It was initially an attempt to create some small, condensed tracks based on material I use during live sets, exemplifying particular 'sounds' I was used to drawing upon. 
 
 I created some code drafts that I improvised with and recorded a few times to get a feel for them, and then tried to 'perform' them in five minutes or less each to get something that sounded more polished.
 
