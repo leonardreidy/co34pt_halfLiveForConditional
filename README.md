@@ -18,7 +18,7 @@ The `.scd` files supplied are designed to be run in order, with each block or li
 - `AcidTrack.scd` is track 2
 - `raveTrack.scd` is track 3
 
-I try to use permissively-licensed samples and release my code wherever possible in a way that is useful, so this album reflects that.
+I try to use permissively-licensed samples and release my code wherever possible in a way that is useful.
 
 Get in touch on twitter (@theseanco) or via email theseancotterill at live period com if you have any questions/comments.
 
